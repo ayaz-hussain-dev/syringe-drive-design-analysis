@@ -1,0 +1,6 @@
+design,from_nominal_size_mm,to_nominal_size_mm,deformation_change_percent,peak_stress_change_percent,normalisation
+baseline,5,4,0.03358334,0.13629440,previous coarser run
+baseline,4,3,0.03357207,-0.11208967,previous coarser run
+revised,5,4,0.02788467,1.09844387,previous coarser run
+revised,4,3,0.03902765,5.53955058,previous coarser run
+revised,3,2,0.07802486,-2.34752769,previous coarser run

@@ -1,0 +1,8 @@
+design,nominal_element_size_mm,mesh_nodes,mesh_solid_elements,element_quality_min,element_quality_max,element_quality_mean,element_quality_std,maximum_total_deformation_mm,maximum_averaged_von_mises_MPa,reaction_x_N,reaction_total_N,applied_force_x_N,solver_surface_elements,solver_total_elements,solver_warning_count,solver_error_count,source_archive
+baseline,5,163969,104239,0.052929,0.99999,0.73876,0.14744,0.0017866,0.12473,5.835,5.835,-5.835,102,104341,2,0,Base_Baseline_5mm_Solved.wbpz
+baseline,4,180618,115101,0.090949,0.99995,0.74939,0.14211,0.0017872,0.12490,5.835,5.835,-5.835,102,115203,2,0,Base_Baseline_4mm_Solved.wbpz
+baseline,3,227731,146199,0.084755,0.99959,0.76973,0.13322,0.0017878,0.12476,5.835,5.835,-5.835,102,146301,2,0,Base_Baseline_3mm_Solved.wbpz
+revised,5,155885,99047,0.073882,0.99987,0.74325,0.14184,0.0017931,0.12017,5.835,5.835,-5.835,102,99149,2,0,Base_Revised_5mm_Solved.wbpz
+revised,4,172685,109992,0.075351,0.99941,0.75416,0.13690,0.0017936,0.12149,5.835,5.835,-5.835,102,110094,2,0,Base_Revised_4mm_Solved.wbpz
+revised,3,219035,140726,0.070517,0.99986,0.77234,0.12724,0.0017943,0.12822,5.835,5.835,-5.835,102,140828,2,0,Base_Revised_3mm_Solved.wbpz
+revised,2,359900,233603,0.153180,0.99987,0.78875,0.11516,0.0017957,0.12521,5.835,5.835,-5.835,102,233705,2,0,Base_Revised_2mm_Solved.wbpz

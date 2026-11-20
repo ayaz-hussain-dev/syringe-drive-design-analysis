@@ -1,0 +1,11 @@
+{
+  "mass_reduction_g": 16.189999999999984,
+  "mass_reduction_percent": 4.261872170158993,
+  "volume_reduction_mm3": 13060,
+  "selected_mesh_deformation_increase_percent": 0.4418838796285894,
+  "matched_3mm_deformation_increase_percent": 0.36357534399820984,
+  "revised_last_refinement_deformation_change_percent": 0.07802485648999195,
+  "revised_last_refinement_peak_stress_change_percent": -2.3475276867883426,
+  "baseline_last_refinement_deformation_change_percent": 0.03357206803938598,
+  "baseline_last_refinement_peak_stress_change_percent": -0.1120896717373909
+}

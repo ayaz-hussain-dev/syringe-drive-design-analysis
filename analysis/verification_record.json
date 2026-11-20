@@ -1,0 +1,16 @@
+{
+  "source": "User-supplied screenshots and seven solved Workbench archives",
+  "archive_integrity": "All seven inner ZIP CRC checks passed; all contain a non-empty .rst result file.",
+  "native_input_crosscheck": "All cases use SOLID187 for the base, SURF154 for the applied surface force, and material 1 with E = 3000 MPa, nu = 0.35 and density = 1.24e-9 tonne/mm^3.",
+  "element_count_basis": "Mechanical mesh solid elements. Solver totals add 102 SURF154 loading elements in every case.",
+  "solver_errors_per_case": 0,
+  "solver_warnings_per_case": 2,
+  "solver_warning_review": [
+    "Element shape checking is currently inactive. This is the solver SHPP setting; Mechanical mesh-quality statistics are retained in fea_results.csv.",
+    "Material number 2 has no MP/TB definition; output of energy by material may not be available. The flagged element is the first SURF154 loading element in every case. The solid base uses material 1 with the PLA elastic and density inputs."
+  ],
+  "calculation_to_fea_force_rounding": "5.83456341154 N calculated; 5.835 N applied in FEA.",
+  "stress_interpretation": "Global averaged nodal von Mises maximum for each mesh. The 2.35 percent final change is observed mesh sensitivity, not an absolute stress-error estimate or fixed-location convergence proof.",
+  "mass_basis": "ANSYS Geometry properties using homogeneous solid-model density 1240 kg/m^3; base component only.",
+  "result_precision": "Reported maximum values retain the precision displayed by Mechanical."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "Preliminary parametric design study; resistance assumptions are not measurements",
+  "geometry": {
+    "barrel_bore_mm": 14.57,
+    "active_stroke_mm": 60.0,
+    "screw_lead_mm_per_rev": 0.8,
+    "motor_full_step_deg": 1.8,
+    "plunger_axis_y_mm": 42.3025865914,
+    "screw_axis_y_mm": 28.15
+  },
+  "study_assumptions": {
+    "orientation": "horizontal, quasi-static",
+    "reference_flow_ml_per_min": 1.0,
+    "back_pressure_kpa": 20.0,
+    "seal_friction_n": 2.0,
+    "guide_drag_n": 0.5,
+    "nominal_screw_efficiency": 0.2,
+    "efficiency_sweep": [0.1, 0.2, 0.3],
+    "pressure_sweep_kpa": [0.0, 10.0, 20.0, 40.0, 60.0],
+    "torque_sizing_multiplier": 2.0,
+    "additional_drag_torque_nm": 0.0,
+    "motor_shaft_axial_reaction_fraction": 1.0,
+    "force_sweep_start_n": 0.0,
+    "force_sweep_stop_n": 15.0,
+    "force_sweep_step_n": 0.25
+  },
+  "manufacturer_data": {
+    "motor_model": "STEPPERONLINE 17HS16-2004S1",
+    "motor_dynamic_axial_load_max_n": 10.0,
+    "motor_holding_torque_nm": 0.45,
+    "available_running_torque_nm": null
+  }
+}
